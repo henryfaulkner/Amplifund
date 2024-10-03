@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Amplifund.Assignment.API.Core\Amplifund.Assignment.API.Core.csproj" />
+    <ProjectReference Include="..\Amplifund.Assignment.BL.Common\Amplifund.Assignment.BL.Common.csproj" />
+    <ProjectReference Include="..\Amplifund.Assignment.BL.Grants\Amplifund.Assignment.BL.Grants.csproj" />
+    <ProjectReference Include="..\Amplifund.Assignment.Model\Amplifund.Assignment.Model.csproj" />
+  </ItemGroup>
+
+</Project>

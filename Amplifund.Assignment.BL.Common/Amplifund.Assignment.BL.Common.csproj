@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Amplifund.Assignment.Data\Amplifund.Assignment.Data.csproj" />
+    <ProjectReference Include="..\Amplifund.Assignment.Domain\Amplifund.Assignment.Domain.csproj" />
+    <ProjectReference Include="..\Amplifund.Assignment.Logger\Amplifund.Assignment.Logger.csproj" />
+  </ItemGroup>
+
+</Project>

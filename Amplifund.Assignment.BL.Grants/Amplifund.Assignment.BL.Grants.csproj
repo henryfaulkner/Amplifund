@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Amplifund.Assignment.Data\Amplifund.Assignment.Data.csproj" />
+    <ProjectReference Include="..\Amplifund.Assignment.Domain\Amplifund.Assignment.Domain.csproj" />
+    <ProjectReference Include="..\Amplifund.Assignment.Logger\Amplifund.Assignment.Logger.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -31,9 +31,7 @@ namespace Amplifund.Assignment.API.Core
             });
 
             // I am going to just hard-code the connection string :P
-            var solutionDir = Directory.GetParent(Directory.GetCurrentDirectory()).FullName; 
-            var relativePath = Path.Combine(solutionDir, "Amplifund.Assignment.Data", "app_database.db");
-            ConfigureDataBase(services, $"Data Source={relativePath};");
+            ConfigureDataBase(services, $"Data Source=app_database.db;");
 
             logger.Information("Completed configuring API services.");
 

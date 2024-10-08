@@ -12,10 +12,7 @@ namespace Amplifund.Assignment.Data
             var builder = new DbContextOptionsBuilder<AppDbContext>();
 
             // I am going to just hard-code the connection string :P
-            var solutionDir = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName; 
-            var relativePath = Path.Combine(solutionDir, "Amplifund.Assignment.Data", "app_database.db");
-
-            builder.UseSqlite($"Data Source={relativePath};");
+            builder.UseSqlite($"Data Source=app_database.db;");
             return new AppDbContext(builder.Options);
         }
     }

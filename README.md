@@ -1,6 +1,12 @@
 # Amplifund-Assignment
 
+## API Architecture 
+
+- My architectural decisions are described in detail at this link: [Architecture Summary Document](./Amplifund_API_Architecture.pdf)
+
 ## How to run
+
+- The API is hosted at the following link: [Hosted API Swagger Documentation](https://amplifund-webapp-server-gwf0asgea9cneehc.eastus-01.azurewebsites.net/swagger/index.html)
 
 - If you prefer using Visual Studios, you may open the solution, **set the Startup project as Amplifund.Assignment.API.API1**, and run the project. Your default browser will open to the Swagger UI, where you may test the available endpoints.
 
